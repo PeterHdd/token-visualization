@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/621278aa-245b-4cc8-9317-fdef5999d159/deploy-status)](https://app.netlify.com/projects/tokenization-visualization/deploys)
+
 # Tokenizer Visualizer
 
 Tokenizer playground to see how different Hugging Face tokenizers split your prompt.
