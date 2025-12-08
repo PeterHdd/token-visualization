@@ -281,6 +281,31 @@ export default function Home() {
         </section>
       </main>
 
+      <section className="deep-dive">
+        <details>
+          <summary className="deep-dive__trigger">
+            What happens to tokens after this?
+            <span className="deep-dive__cta">Click to read the next steps</span>
+          </summary>
+          <div className="deep-dive__body">
+            <p>
+              After tokenization, each token ID is mapped to an embedding vector that captures learned semantic and positional
+              information. These vectors form the initial input sequence for the transformer stack.
+            </p>
+            <p>
+              The sequence is processed by repeated transformer layers. Within each layer, self-attention mixes information across
+              positions so each token can borrow context from others, and a position-wise feed-forward network refines every
+              token&apos;s representation. Residual connections and normalization help the model stay stable across depth.
+            </p>
+            <p>
+              The final hidden states feed into a projection head (for logits or other tasks), which turns the refined vectors back
+              into probabilities over the vocabulary or other outputs. In autoregressive models, the process repeats for each new
+              generated token.
+            </p>
+          </div>
+        </details>
+      </section>
+
       <footer className="footer">
         <div>
           Powered by <code>@huggingface/tokenizers</code>, models load from the Hugging Face Hub, no data is sent to a custom server.
