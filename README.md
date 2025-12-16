@@ -18,7 +18,7 @@ Tokenizer playground to see how different Hugging Face tokenizers split your pro
 
 
 ## Support!
-Support the repository by joining the [stargazers](https://github.com/PeterHdd/Firebase-Flutter-tutorials/stargazers) for this repo ⭐
+Support the repository by joining the [stargazers](https://github.com/PeterHdd/token-visualization/stargazers) for this repo ⭐
 
 ### Created & Maintained By
 
